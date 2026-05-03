@@ -8,7 +8,7 @@ def run(playwright: Playwright) -> None:
     page = context.new_page()
     page.goto("https://ntechlabs.mindriserstech.com/")
     page.get_by_role("img", name="Hero Image").click()
-    page.get_by_role("img", name="Mobile & Web App Development").click()
+    page.get_by_role("img", name="Mobile & Web App Developments").click()
     page.get_by_role("button", name="Contact us", exact=True).click()
     page.get_by_role("textbox", name="Enter Your Name").click()
     page.get_by_role("textbox", name="Enter Your Name").fill("asfdgcv")
@@ -17,7 +17,7 @@ def run(playwright: Playwright) -> None:
     page.get_by_role("textbox", name="Enter Your Phone").click()
     page.get_by_role("textbox", name="Enter Your Phone").fill("9845484844")
     page.locator("input[name=\"date\"]").fill("2026-04-16")
-    page.get_by_role("textbox", name="Enter Your Message").click()
+    page.get_by_role("textbox", name="Enter Your Messaggess").click()
     page.get_by_role("textbox", name="Enter Your Message").fill("hello")
     page.get_by_role("button", name="Send").click()
 
