@@ -13,7 +13,7 @@ def run(playwright: Playwright) -> None:
     page.get_by_role("textbox", name="Enter Your Name").click()
     page.get_by_role("textbox", name="Enter Your Name").fill("ram bahadur")
     page.get_by_role("textbox", name="Enter Your Email").click()
-    page.get_by_role("textbox", name="Enter Your Email").fill("@gmail.com")
+    page.get_by_role("textbox", name="Enter Your Email").fill("rambahadur21@gmail.com")
     page.get_by_role("textbox", name="Enter Your Phone").click()
     page.get_by_role("textbox", name="Enter Your Phone").fill("9845484844")
     page.locator("input[name=\"date\"]").fill("2026-04-16")
